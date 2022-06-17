@@ -16,18 +16,15 @@ export class Navbar extends Component {
         <li className="nav-item">
           <Link className="nav-link" aria-current="page" to="/">Home</Link> 
         </li> 
-        <li className="nav-item"><Link className="nav-link" to="/business">business</Link></li>
-        <li className="nav-item"><Link className="nav-link" to="/entertainment">entertainment</Link></li>
-        <li className="nav-item"><Link className="nav-link" to="/general">general</Link></li>
-        <li className="nav-item"><Link className="nav-link" to="/health">health</Link></li> 
-        <li className="nav-item"><Link className="nav-link" to="/science">science</Link></li>
-         <li className="nav-item"><Link className="nav-link" to="/sports">sports</Link></li>
-        <li className="nav-item"><Link className="nav-link" to="/technology">technology</Link></li>
+        <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
+        <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
+        <li className="nav-item"><Link className="nav-link" to="/general">General</Link></li>
+        <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li> 
+        <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
+         <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
+        <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
       </ul> 
-      <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      
     </div>
   </div>
 </nav>
